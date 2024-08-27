@@ -1,0 +1,15 @@
+getUsers:
+    path: /users
+    controller: App\Controller\UserController::getUsers
+
+createUser:
+    path: /user/create
+    controller: App\Controller\UserController::createUser
+
+deleteUser:
+    path: /user/delete/{id}
+    controller: App\Controller\UserController::deleteUser   
+
+updateUser:
+    path: /user/update/{id}
+    controller: App\Controller\UserController::updateUser  
